@@ -1,0 +1,87 @@
+@media (max-width: 1024px) {
+    .page-cent .content,
+    .page-about .content {
+      padding-right: 32px;
+      padding-left: 15px;
+    }
+}
+
+@media (max-width: 812px) {
+    .page-cent .content,
+    .page-about .content {
+		padding: 0 30px 50px 0 !important;
+    }
+    .columns {
+        float: right;
+    }
+}
+
+@media (max-width: 801px) {
+    .pane-when .avatar .elem-center {
+        margin-right: 25px;
+        margin-left: inherit;
+    }
+    .page-main {
+        margin-right: 50px;
+        margin-left: inherit !important;
+    }
+    #s-services .services {
+        margin-right: inherit;
+        margin-left: 20px;
+    }
+    #s-services .services:nth-child(2n+1) {
+        margin-right: inherit;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 720px) {
+    .page-main {
+        margin-right: 65px;
+        margin-left: inherit;
+    }
+
+    .page-cent .content,
+	.page-about .content {
+        padding-right: 16px !important;
+        padding-left: 25px !important;
+	}
+}
+
+@media (max-width: 641px) {
+    .page-main {
+        margin-right: auto;
+        margin-left: inline;
+    }
+
+    .page-cent .content,
+    .page-about .content {
+    padding: 0px 75px 30px 25px !important;
+  }
+
+  .column,
+  .columns {
+      float: right;
+  }
+}
+
+@media (max-width: 360px) {
+    .page .content .subhead {
+        padding-right: 0;
+    }
+}
+
+@media only screen and (min-width: 64.063em) {
+    .column,
+    .columns {
+        float: right !important;
+    }
+}
+
+@media only screen and (min-width: 40.063em) {
+    .column,
+    .columns {
+        float: right !important;
+    }
+}
+
